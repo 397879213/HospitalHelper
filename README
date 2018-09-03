@@ -1,0 +1,30 @@
+Name: Thomas Madden
+ID: 2261821
+Project: HospitalHelper!
+
+Demo Instructions:
+
+1. Make sure there exists a database “cpsc_408” accessible on localhost port 3308
+2. Ensure there is a folder called “assets” with the file “demographic_data.csv” and “specific_data.csv” in it (the first one is created by Faker, from DataGenerator.php, and the second was created from an online tool). The “assets” folder should be the working directory for the project.
+3. Ensure there is a folder called “schemas” in the “assets” folder with all these names:
+    condition_mysql.sql
+    creditcards.sql
+    doctor_data_view.sql
+    doctor_mysql.sql
+    doctor_patient_mysql.sql
+    hospital_data_view.sql
+    hospitals.sql
+    location_mysql.sql
+    patient_data_view.sql
+    patient_mysql.sql
+    patient_phone_mysql.sql
+    prescriptions_mysql.sql
+4. Ensure there is “commons-csv-1.1.jar” in the folder as well, compiled on project compilation. It will be used for exporting CSV files.
+5. Run! It will create tables and generate data for you.
+
+I used Java Swing Documentation and SQL Documentation extensively.
+
+Also,
+
+https://stackoverflow.com/questions/2780284/how-to-get-all-table-names-from-a-database
+https://commons.apache.org/proper/commons-csv/user-guide.html

@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Patients;
+CREATE TABLE Patients (PatientId INT AUTO_INCREMENT, Name VARCHAR(50), ConditionId INT, LocationId INT, CreditCardId INT, PRIMARY KEY (PatientId), FOREIGN KEY (LocationId) REFERENCES Locations(LocationId), INDEX Patient_Index (PatientId));

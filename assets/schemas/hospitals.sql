@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Hospitals;
+CREATE TABLE Hospitals (HospitalId INT PRIMARY KEY AUTO_INCREMENT, Name VARCHAR(127), LocationId INT, PhoneNum VARCHAR(63), TollFreePhoneNum VARCHAR(63), FOREIGN KEY (LocationId) REFERENCES Locations(LocationId), INDEX Hospital_Index (HospitalId));

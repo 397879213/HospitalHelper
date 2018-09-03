@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Locations;
+CREATE TABLE Locations (LocationId INT AUTO_INCREMENT, Address VARCHAR(127), State VARCHAR(63), PostCode VARCHAR(63), PRIMARY KEY (LocationId));

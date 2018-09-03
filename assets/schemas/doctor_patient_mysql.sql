@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS DoctorToPatient;
+CREATE TABLE DoctorToPatient (PatientId INT, DoctorId INT, FOREIGN KEY (DoctorId) REFERENCES Doctors(DoctorId), FOREIGN KEY (PatientId) REFERENCES Patients(PatientId));

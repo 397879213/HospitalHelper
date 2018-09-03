@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS CreditCards;
+CREATE TABLE CreditCards (CreditCardId INT AUTO_INCREMENT, CreditCardNum VARCHAR(63), CreditCardType VARCHAR(63), CreditCardExpType VARCHAR(31), PRIMARY KEY CreditCards(CreditCardId));

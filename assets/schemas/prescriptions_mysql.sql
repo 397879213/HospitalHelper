@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Prescriptions;
+CREATE TABLE Prescriptions (PrescriptionId INT AUTO_INCREMENT, PatientId INT, PrescriptionName VARCHAR(255), PrescriptionDrug VARCHAR(255), PRIMARY KEY (PrescriptionId), FOREIGN KEY (PatientId) REFERENCES Patients(PatientId));

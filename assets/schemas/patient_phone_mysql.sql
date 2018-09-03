@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS Patient_Phones;
+CREATE TABLE Patient_Phones (PhoneId INT PRIMARY KEY AUTO_INCREMENT, PatientId INT, MobilePhone VARCHAR(31), HomePhone VARCHAR(31), ICEPhone VARCHAR(31), FOREIGN KEY (PatientId) REFERENCES Patients(PatientId));
